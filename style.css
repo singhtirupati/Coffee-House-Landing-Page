@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgba(253, 245, 230, 0.22);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.page-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.heading h2 {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    letter-spacing: 4px;
+    font-size: 18px;
+    padding: 5px 8px;
+}
+
+.letter-style {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.5;
+}
+
+.shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Navbar start */
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 5px;
+}
+
+ul li {
+    display: flex;
+    width: 25%;
+}
+
+ul li a {
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+ul li a:hover {
+    background-color: lightgray;
+    color: black;
+}
+/* Navbar end */
+
+/* Home page start */
+.home-page {
+    height: 80vh;
+    background: url("./img/coffeehouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hm-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home-text {
+    color: white;
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.home-btm-text {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    word-spacing: 3px;
+}
+
+.home-btm-text p:first-child {
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 7px 10px;
+}
+
+.home-btm-text p:last-child {
+    float: right;
+    margin-right: 20px;
+    padding: 7px 10px;
+}
+/* Home page end */
+
+/* About start */
+.abt-wrap p {
+    margin-bottom: 20px;
+}
+
+.qoute-div {
+    background-color: #dde4eb6e;
+    border-left: 5px solid rgba(128, 128, 128, 0.4);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.qoute-div p:last-child {
+    margin-bottom: 0;
+}
+
+.abt-img {
+    height: 450px;
+}
+
+.abt-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.abt-time {
+    margin-top: 25px;
+}
+/* About end */
+
+/* Menu start */
+
+.menu-img {
+    height: 450px;
+}
+
+.menu-type {
+    display: flex;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.menu-type li {
+    width: 50%;
+}
+
+.menu-type li a {
+    color: black;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.menu-type li a:hover {
+    background-color: rgba(85, 84, 84, 0.925);
+    color: white;
+}
+
+.active {
+    background-color: rgba(85, 84, 84, 0.925);
+    color: white;
+}
+
+.menu-item {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.menu-item h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.menu-item h4:first-child {
+    margin-top: 50px;
+}
+
+.menu-item p {
+    margin-bottom: 55px;
+    color: rgba(0, 0, 0, 0.486);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.menu-img img {
+    height: 100%;
+    width: 100%;
+}
+/* Menu end */
+
+/* Location start */
+.map-pg-wrap p {
+    margin-bottom: 18px;
+}
+
+.map-img {
+    height: 450px;
+}
+
+.map-img img {
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgrey;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    color: black;
+}
+/* Location end */
+
+/* Footer start */
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer a {
+    display: inline-block;
+    color: black;
+    text-decoration: underline;
+}
+/* Footer end */
